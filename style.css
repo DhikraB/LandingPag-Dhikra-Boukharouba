@@ -1,0 +1,223 @@
+/* Write some CSS below */
+
+body{
+    font-size: 15PX;
+    font-family: 'overpass';
+    background-color: azure;
+    margin: 0;
+    padding: 0;
+
+}
+
+.container {
+    width: 900px;
+    margin: 30px auto;
+}
+
+.banner{
+    background-image: url(images/backroung2.jpg);
+    background-size: 1200px;
+    background-position: center;
+    background-size: cover;
+    padding: 100px 0;
+    position: relative;
+    margin:0; 
+    opacity: 0,5;
+    text-align: center;
+}
+
+.banner h1{
+color: azure;
+font-size: 40px;
+}
+
+.banner p{
+    color: rgb(253, 253, 253);
+    font-size: 15px;
+   margin-left: 5%;
+   margin-right: 5%;
+}
+
+.h1{
+    font-size: 48PX;
+    color: rgb(252, 252, 252);
+    }
+
+
+.h2{
+font-size: 36PX;
+padding: 5px;
+color: black
+
+}
+
+ .h3{
+    font-size: 28PX;
+    color: black
+}
+
+.p{ 
+    color: black;
+    position: relative;
+}
+
+
+.img{
+    width: 200px;
+    height: auto;
+}
+
+.btn-blue{
+background-color: rgb(251, 255, 251);
+position: absolute;
+padding: 10px 10PX;
+bottom: 35px;
+right: 45%;
+color: rgb(0, 213, 164);
+border-radius: 5px;
+font-weight:bold;
+}
+
+
+.section2{
+    background-color: azure;
+    color: black;
+    position: relative;
+    text-align: center;
+    margin-top: 5%;
+    margin: 15px, 0;
+}
+
+.container{
+    margin: 30px auto;
+    width: 800px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.card-white {
+background-color: aliceblue;
+border-radius: 4px;
+padding: 5px;
+}
+
+.card-white img{
+border-radius: 4px;
+width: 100%;
+height: 200px;
+object-fit: cover;
+
+}
+
+.btn-green{
+    background-color: rgb(16, 184, 161);
+    padding: 8px 8PX;
+    margin: 5px;
+    margin-bottom: 5px;
+    color: rgb(249, 249, 249);
+    border-radius: 5px;
+    font-weight:bold;
+    }
+
+.cards2 {
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+
+.card-white2 {
+    background-color: aliceblue;
+    text-align: left;
+    }
+
+.card-white2.img{
+    border-radius: 4px;
+    width: 100%;
+    height: 300px;
+
+}
+
+.btn-small{
+
+    padding: 8px 8PX;
+    margin: 10px;
+    color: rgb(146, 236, 200);
+    border-radius: 5px;
+    font-weight:bold;
+}
+
+
+.Footer{
+background-color: rgb(139, 223, 195);
+background-position: center;
+background-size: cover;
+text-align: center;
+text-size-adjust: 20PX;
+padding: 10px;
+margin:0; 
+}
+
+
+
+.form-example {
+display: table;
+padding-left: 150px;
+text-align: left;
+ }
+      
+.div.form-example {
+display: table-row;
+size: 20px;
+;
+}
+      
+.label,
+input,textarea {
+display: table-cell;
+margin-bottom: 20px;
+}
+      
+.label {
+padding-right: 10px;
+}
+
+
+.card-footer1{
+    text-align: right; 
+    padding-left: 400px;
+}
+
+.card-footer2{
+    text-align: right; 
+}
+
+
+.cards3 {
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+    
+      
+      
+
+
+
+    
+
+
